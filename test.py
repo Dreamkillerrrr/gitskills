@@ -1,3 +1,4 @@
 import socket
-host = socket.getHostname()
+host = socket.gethostname()
 print(host)
+b = input('say something')
